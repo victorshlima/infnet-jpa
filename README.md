@@ -1,1 +1,5 @@
-infnet-jpa
+
+
+
+Subir o banco:
+docker-compose up 
