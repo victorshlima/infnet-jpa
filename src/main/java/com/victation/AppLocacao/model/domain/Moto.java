@@ -15,8 +15,7 @@ public class Moto extends Automovel {
     private String  tipoRoda;
     private float valor;
 
-    public Moto(Integer id, int peso, String tipoRoda) {
-        this.id = id;
+    public Moto(int peso, String tipoRoda) {
         this.peso = peso;
         this.tipoRoda = tipoRoda;
     }

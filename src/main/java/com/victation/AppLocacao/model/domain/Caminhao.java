@@ -19,8 +19,7 @@ public class Caminhao extends Automovel{
     private int capacidadeCarga;
     private float valor;
 
-    public Caminhao(Integer id, String tipo, int eixos, int capacidadeCarga) {
-        this.id = id;
+    public Caminhao(String tipo, int eixos, int capacidadeCarga) {
         this.tipo = tipo;
         this.eixos = eixos;
         this.capacidadeCarga = capacidadeCarga;
