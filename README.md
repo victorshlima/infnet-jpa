@@ -1,5 +1,7 @@
 
 
-
 Subir o banco:
-docker-compose up 
+
+
+Na raiz do projeto:
+docker-compose up
