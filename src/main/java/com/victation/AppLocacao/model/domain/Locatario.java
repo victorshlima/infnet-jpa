@@ -40,6 +40,13 @@ public class Locatario
         this.email = email;
     }
 
+    public Locatario(String nome, String sobrenome, String cpf, String email) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.cpf = cpf;
+        this.email = email;
+    }
+
     public Locatario() {
 
     }
