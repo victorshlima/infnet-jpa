@@ -10,8 +10,8 @@ import javax.persistence.*;
 @Table
 public class Caminhao extends Automovel{
 
-     @Id
-     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String tipo; //enum - Toco - Truck - VUC ...
